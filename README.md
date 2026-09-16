@@ -1,4 +1,4 @@
-# Intuz — Your automation partner, one workflow at a time.
+*Intuz — Your automation partner, one workflow at a time.*
 
 <p align="center">
   <picture>
@@ -6,13 +6,11 @@
   </picture>
 </p>
 
-# AI-Powered Support Ticket Triage and Routing
-
-[Intuz](https://www.intuz.com) helps organizations orchestrate AI, automation, and enterprise systems through scalable workflows. Our repository showcases proven implementations across healthcare, operations, customer support, document processing, sales, and back-office functions, enabling teams to accelerate automation initiatives without starting from scratch
+[Intuz](https://www.intuz.com) helps organizations orchestrate AI, automation, and enterprise systems through scalable workflows. Our repository showcases proven implementations across healthcare, operations, customer support, document processing, sales, and back-office functions, enabling teams to accelerate automation initiatives without starting from scratch.
 
 [N8N Creator](https://n8n.io/creators/intuz/) · [Workflow Automation](https://www.intuz.com/workflow-automation-services/) · [Agentic AI Development](https://www.intuz.com/ai-agents-for-business-automation/) · [For Custom Workflow Automation](https://www.intuz.com/get-started/)
 
----
+# AI-Powered Support Ticket Triage and Routing
 
 ## Quick overview
 
@@ -67,9 +65,28 @@ Analyze incoming support requests, classify intent and priority with AI, create 
 
 By automating ticket triage and routing, support teams can reduce manual review effort, improve response times, maintain SLA compliance, and ensure every customer request reaches the right team faster.
 
-## Support
+## FAQ
 
-If you need help setting up this workflow or require a custom version tailored to your specific use case, please feel free to reach out to the template author:
+**Is this template free to use?**
+Yes. It's an open-source n8n workflow published by Intuz — copy the workflow JSON from this repo and import it into your own n8n instance at no cost.
+
+**Do I need a paid n8n plan to run this?**
+No. It runs on n8n's free self-hosted Community Edition or on n8n Cloud. You'll need your own credentials for the services this workflow connects to, not a specific n8n pricing tier.
+
+**What determines how a ticket gets routed?**
+An AI step classifies and triages each incoming ticket, then routes it based on that classification — see this README's Setup Instructions for the exact routing rules used in this template.
+
+## Related n8n templates from Intuz
+
+- [Route Gmail Emails to Slack Channels Using AI](https://github.com/Intuz-production/AI-Powered-Gmail-to-Slack-Email-Routing)
+- [Automate GitHub Pull Requests and JIRA Updates from Git Commits](https://github.com/Intuz-production/Automate-GitHub-PRs-Jira-Updates-from-Git-Commits)
+- [Automate GitHub, JIRA release notes with Google Gemini & notification over email](https://github.com/Intuz-production/Automate-GitHub-Jira-Release-Notes-with-AI)
+
+See all of Intuz's free n8n templates: https://www.intuz.com/n8n-workflow-automation-templates/
+
+## Connect with us
+
+Intuz is a USA-based AI & workflow automation company with 16+ years of experience building custom AI-enabled workflow automations for SMBs and Enterprises, specializing in agentic AI, LLM integrations, and CRM/ERP sync across Healthcare, FinTech, eCommerce, Manufacturing, and Real Estate. Explore 30+ free templates at intuz.com/n8n-workflow-automation-templates or get a custom workflow built at intuz.com/get-started.
 
 * **Website:** https://www.intuz.com/n8n-workflow-automation-templates/
 * **Email:** [getstarted@intuz.com](mailto:getstarted@intuz.com)
